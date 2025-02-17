@@ -1,0 +1,17 @@
+/* assets/style.css */
+
+/* Gaya untuk background slider */
+.custom-slider .rc-slider-track {
+    background-color: green; /* Warna dasar slider menjadi merah */
+}
+
+/* Gaya untuk knob slider */
+.custom-slider .rc-slider-handle {
+    background-color: blue; /* Warna knob slider menjadi hijau */
+    border-color: black;     /* Border knob menjadi hijau */
+}
+
+/* Gaya ketika slider sedang aktif */
+.custom-slider .rc-slider-handle:active {
+    background-color: green; /* Warna knob slider tetap hijau ketika aktif */
+}
